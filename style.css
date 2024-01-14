@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.btn-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.leftSide , .rightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(35, 96, 226);
+    width: 100vh;
+    text-align: center;
+    color: white;
+}
+
+#rock-btn{
+    background-color: rgb(226, 32, 26);
+}#paper-btn{
+    background-color: rgb(19, 226, 64);
+}#scissors-btn{
+    background-color: rgb(126, 195, 207);
+}

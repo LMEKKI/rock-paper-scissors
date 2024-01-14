@@ -1,13 +1,13 @@
+
+
+
 let player = 0;
 let computer = 0;
 let turn = 0;
 
 function playerRound() {
-  getUserInput = (function () {
-    let a = prompt("choose response").toLowerCase();
-
-    return a;
-  })();
+  
+  
 
   getComputerChoice = (function () {
     let choice = ["rock", "paper", "scissors"];
@@ -64,4 +64,4 @@ function game() {
   }
 }
 
-game();
+game(); 
