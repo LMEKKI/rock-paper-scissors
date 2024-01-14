@@ -28,9 +28,9 @@ function endText(p) {
   });
 }
 
-const rockImg = "/rock.svg";
-const paperImg = "/paper.svg";
-const scissorsImg = "/scissors.svg";
+const rockImg = "rock.svg";
+const paperImg = "paper.svg";
+const scissorsImg = "scissors.svg";
 
 rockBtn.addEventListener("click", function () {
   currentBtnId = "rock";
