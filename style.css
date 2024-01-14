@@ -1,44 +1,105 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-family: Roboto, sans-serif;
+  background: url("/img/bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+
 }
 
-.content{
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-
-.btn-content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
+.btn-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
 }
 
-.leftSide , .rightSide{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
+.leftSide,
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
 }
 
-footer{
-    background-color: rgb(35, 96, 226);
-    width: 100vh;
-    text-align: center;
-    color: white;
+#leftside,
+#rightside {
+  background-size: cover;
+  color: red;
 }
 
-#rock-btn{
-    background-color: rgb(226, 32, 26);
-}#paper-btn{
-    background-color: rgb(19, 226, 64);
-}#scissors-btn{
-    background-color: rgb(126, 195, 207);
+footer {
+  background-color: rgb(35, 96, 226);
+  width: 100vh;
+  text-align: center;
+  color: white;
+}
+
+#rock-btn {
+  background-color: rgb(226, 32, 26);
+}
+#paper-btn {
+  background-color: rgb(19, 226, 64);
+}
+#scissors-btn {
+  background-color: rgb(126, 195, 207);
+}
+
+#endGameStyle {
+  height: 100vh;
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#btnReplay {
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  color: #fff;
+  background-color: #0066cc;
+  padding: 10px 30px;
+  border: solid #0066cc 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#btnReplay:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 5px #0066cc;
 }
